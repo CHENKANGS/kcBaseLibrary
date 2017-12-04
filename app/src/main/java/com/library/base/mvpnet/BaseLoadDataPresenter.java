@@ -1,4 +1,4 @@
-package com.library.base.mvp;
+package com.library.base.mvpnet;
 
 /**
  * 辅助presenter类，实现一些通用的方法（涉及加载数据）

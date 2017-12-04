@@ -4,9 +4,8 @@ import android.util.Log;
 
 import com.library.base.base.BaseApplication;
 import com.library.base.entity.bean.NewsBean;
-import com.library.base.mvp.nets.HttpResultFunc;
+import com.library.base.mvpnet.nets.HttpResultFunc;
 import com.library.base.util.encrypt.Aes;
-import com.library.base.util.encrypt.Des;
 
 import java.util.HashMap;
 import java.util.List;

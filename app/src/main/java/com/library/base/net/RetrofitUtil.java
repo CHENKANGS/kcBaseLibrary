@@ -23,8 +23,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class RetrofitUtil {
-    项目采用MVP模式框架，OKHTTP，Retrofit，RXJAVA，DES加密，下拉刷新上拉加载封装及自定义，仿微信图片选择及拍照，及自定义dialog。
-    git@github.com:CHENKANGS/kcBaseLibrary.git
     /**
      * 服务器地址
      */

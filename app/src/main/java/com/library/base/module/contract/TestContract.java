@@ -3,8 +3,8 @@ package com.library.base.module.contract;
 import android.app.Activity;
 
 import com.library.base.entity.bean.NewsBean;
-import com.library.base.mvp.IPresenter;
-import com.library.base.mvp.IView;
+import com.library.base.mvpnet.IPresenter;
+import com.library.base.mvpnet.IView;
 
 import java.util.List;
 

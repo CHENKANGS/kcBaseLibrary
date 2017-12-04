@@ -1,4 +1,4 @@
-package com.library.base.mvp;
+package com.library.base.mvpnet;
 
 import android.support.annotation.NonNull;
 

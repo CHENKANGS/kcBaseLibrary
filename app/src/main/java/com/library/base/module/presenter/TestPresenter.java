@@ -2,15 +2,14 @@ package com.library.base.module.presenter;
 
 import android.text.TextUtils;
 
-import com.library.base.cache.AppBaseCache;
 import com.library.base.cache.RetrofitCache;
 import com.library.base.cache.SPFHelper;
 import com.library.base.entity.bean.NewsBean;
 import com.library.base.module.contract.TestContract;
 import com.library.base.module.model.TestModel;
-import com.library.base.mvp.BasePresenter;
-import com.library.base.mvp.JesException;
-import com.library.base.mvp.nets.JesSubscribe;
+import com.library.base.mvpnet.BasePresenter;
+import com.library.base.mvpnet.JesException;
+import com.library.base.mvpnet.nets.JesSubscribe;
 import com.socks.library.KLog;
 
 import java.util.List;

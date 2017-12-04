@@ -18,8 +18,8 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.library.base.BuildConfig;
-import com.library.base.mvp.IView;
-import com.library.base.mvp.JesException;
+import com.library.base.mvpnet.IView;
+import com.library.base.mvpnet.JesException;
 import com.library.base.widget.dialog.LoadDialog;
 import com.library.base.widget.dialog.QMUITipDialog;
 

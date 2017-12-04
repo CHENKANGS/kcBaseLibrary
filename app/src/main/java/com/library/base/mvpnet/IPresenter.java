@@ -1,4 +1,4 @@
-package com.library.base.mvp;
+package com.library.base.mvpnet;
 
 /**
  * Created by ChenKang on 2017/11/21.

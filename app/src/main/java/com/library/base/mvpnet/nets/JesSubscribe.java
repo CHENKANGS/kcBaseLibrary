@@ -1,11 +1,11 @@
-package com.library.base.mvp.nets;
+package com.library.base.mvpnet.nets;
 
 
 
 import com.library.base.base.BaseApplication;
 import com.library.base.global.GlobalConstant;
-import com.library.base.mvp.IView;
-import com.library.base.mvp.JesException;
+import com.library.base.mvpnet.IView;
+import com.library.base.mvpnet.JesException;
 
 import java.net.ConnectException;
 import java.net.SocketTimeoutException;

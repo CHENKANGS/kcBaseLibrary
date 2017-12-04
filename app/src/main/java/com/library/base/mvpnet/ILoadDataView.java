@@ -1,13 +1,10 @@
-package com.library.base.mvp;
-
-
+package com.library.base.mvpnet;
 
 /**
- *
+ * 加载数据的View层
  * Created by ChenKang on 2017/11/21.
  */
-
-public interface ILoadDataPresenter<V extends IView> extends IPresenter<V> {
+public interface ILoadDataView extends IView {
     /**
      * 显示加载滚动条
      */
@@ -29,7 +26,9 @@ public interface ILoadDataPresenter<V extends IView> extends IPresenter<V> {
     void hideRetry();
 
     /**
-     * 中途停止任务
+     * 中途停止
      */
     void halfwayStop();
+
+
 }

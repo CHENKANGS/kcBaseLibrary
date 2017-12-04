@@ -1,4 +1,4 @@
-package com.library.base.mvp.nets;
+package com.library.base.mvpnet.nets;
 
 
 import com.google.gson.Gson;

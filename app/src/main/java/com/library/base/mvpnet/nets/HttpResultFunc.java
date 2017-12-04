@@ -1,10 +1,10 @@
-package com.library.base.mvp.nets;
+package com.library.base.mvpnet.nets;
 
 
 
 import com.library.base.entity.basemodel.ResponseModel;
 import com.library.base.global.GlobalConstant;
-import com.library.base.mvp.JesException;
+import com.library.base.mvpnet.JesException;
 
 import rx.functions.Func1;
 

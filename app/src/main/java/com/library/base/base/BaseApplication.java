@@ -3,21 +3,10 @@ package com.library.base.base;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Typeface;
-import android.net.wifi.WifiManager;
-import android.os.Build;
-import android.os.Environment;
-import android.telephony.TelephonyManager;
-import android.text.TextUtils;
 
 import com.library.base.R;
 import com.library.base.global.GlobalConstant;
-import com.library.base.mvp.nets.InitRetrofit;
-
-import java.io.File;
-import java.lang.reflect.Field;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import com.library.base.mvpnet.nets.InitRetrofit;
 
 /**
  * Created by ChenKang on 2017/11/14.
