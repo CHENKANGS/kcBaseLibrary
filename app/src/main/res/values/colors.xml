@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--SwitchRefreshLayout-->
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
+
+
+    <color name="transparent_fifty_percent">#80000000</color>
+    <color name="white">#ffffff</color>
+    <color name="home_bg">#f0f0f0</color>
+    <color name="main_title_bg">#ea4f30</color>
+
+    <!--//个人中心相册选择图片时的配置-->
+    <color name="multiple_image_select_primaryDark">#1898f3</color>
+    <color name="multiple_image_select_toolbarPrimaryText">#ffffff</color>
+    <color name="multiple_image_select_primary">#1898f3</color>
+    <color name="multiple_image_select_accent">#1898f3</color>
+
+
+    <!--项目全部颜色-->
+    <color name="main">#1898f3</color>
+    <color name="main_bg">#f1f1f1</color>
+    <color name="line_gray">#dfdfdf</color>
+    <!--<color name="line_gray">#ececec</color>-->
+    <color name="textcolor_black">#1b1b1b</color>
+    <!--<color name="textcolor_black">#333333</color>-->
+    <color name="gray">#8c8c8c</color>
+    <!--<color name="gray">#808080</color>-->
+    <color name="edit_hint_color">#c8c8c8</color>
+    <color name="more_color">#acacac</color>
+    <color name="text_color_green">#21b9bc</color>
+    <color name="textcolor_grayblue">#9bcdf2</color>
+    <color name="text_color_red">#ed5565</color>
+    <color name="text_color_yellow">#f09e47</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="bantouming">#63B8FF</color>
+    <color name="transparent3">#90000000</color>
+    <color name="text_color_blue_1">#6cd5d7</color>
+    <color name="text_color_gray_1">#c1c1c1</color>
+    <color name="text_btn_green">#f9ad58</color>
+
+
+
+    <!-- common -->
+    <color name="app_color_blue">#00A8E1</color>
+    <color name="app_color_blue_disabled">#8000A8E1</color>
+    <color name="app_color_blue_pressed">#c000A8E1</color>
+
+    <color name="app_color_blue_2">#31BDF3</color>
+    <color name="app_color_blue_2_disabled">#7F31BDF3</color>
+    <color name="app_color_blue_2_pressed">#7F31BDF3</color>
+
+    <color name="app_color_theme_1">#EF5362</color> <!-- Grapefruit -->
+    <color name="app_color_theme_2">#FE6D4B</color> <!-- Bittersweet -->
+    <color name="app_color_theme_3">#FFCF47</color> <!-- Sunflower -->
+    <color name="app_color_theme_4">#9FD661</color> <!-- Grass -->
+    <color name="app_color_theme_5">#3FD0AD</color> <!-- Mint -->
+    <color name="app_color_theme_6">#2BBDF3</color> <!-- Aqua -->
+    <color name="app_color_theme_7">#5A9AEF</color> <!-- Blue Jeans -->
+    <color name="app_color_theme_8">#AC8FEF</color> <!-- Lavender -->
+    <color name="app_color_theme_9">#EE85C1</color> <!-- Pink Rose -->
+
+    <color name="app_color_description">@color/qmui_config_color_gray_5</color>
+
+    <color name="bar_divider">#D4D6D8</color>
+    <color name="tab_panel_bg">#ffffff</color>
+    <color name="tab_panel_divider">@color/bar_divider</color>
+
+    <!-- Components 组件 -->
+    <color name="radiusImageView_border_color">@color/app_color_theme_2</color>
+    <color name="radiusImageView_selected_border_color">@color/app_color_theme_1</color>
+    <color name="radiusImageView_selected_mask_color">#7FEF5362</color>
+
+    <!-- Helper 系列界面 -->
+
+    <!-- ColorHelper 颜色工具 -->
+    <color name="colorHelper_square_alpha_background">@color/app_color_theme_4</color>
+    <color name="colorHelper_square_from_ratio_background">@color/app_color_blue</color>
+    <color name="colorHelper_square_to_ratio_background">@color/app_color_theme_3</color>
+
+
+    <color name="permissionColorGreen">#41c236</color>
+    <color name="permissionColorWhite">#ffffff</color>
+    <color name="permissionBgColorGreenLight">#44A49C</color>
+    <color name="permissionBgColorBlue">#ee447AA4</color>
+
+</resources>

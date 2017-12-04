@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="app_primary_color" format="color"/> <!-- topbar -->
+    <attr name="app_content_bg_color" format="color"/> <!-- content-->
+
+
+    <declare-styleable name="ProgressActivity">
+
+        <attr name="loadingProgressBarWidth" format="dimension"/>
+        <attr name="loadingProgressBarHeight" format="dimension"/>
+        <attr name="loadingBackgroundColor" format="color"/>
+
+        <attr name="emptyImageWidth" format="dimension"/>
+        <attr name="emptyImageHeight" format="dimension"/>
+        <attr name="emptyTitleTextSize" format="dimension"/>
+        <attr name="emptyContentTextSize" format="dimension"/>
+        <attr name="emptyTitleTextColor" format="color"/>
+        <attr name="emptyContentTextColor" format="color"/>
+        <attr name="emptyBackgroundColor" format="color"/>
+
+        <attr name="errorImageWidth" format="dimension"/>
+        <attr name="errorImageHeight" format="dimension"/>
+        <attr name="errorTitleTextSize" format="dimension"/>
+        <attr name="errorContentTextSize" format="dimension"/>
+        <attr name="errorTitleTextColor" format="color"/>
+        <attr name="errorContentTextColor" format="color"/>
+        <attr name="errorButtonTextColor" format="color"/>
+        <attr name="errorBackgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeProgressBar">
+        <attr name="swipepb_inner_radius" format="dimension" />
+        <attr name="swipepb_background_color" format="color" />
+        <attr name="swipepb_progress_color" format="color" />
+        <attr name="swipepb_progress_stoke_width" format="dimension" />
+        <attr name="swipepb_show_arrow" format="boolean" />
+        <attr name="swipepb_enable_circle_background" format="boolean" />
+        <attr name="swipepb_arrow_width" format="dimension" />
+        <attr name="swipepb_arrow_height" format="dimension" />
+        <attr name="swipepb_progress" format="integer" />
+        <attr name="swipepb_max" format="integer" />
+        <attr name="swipepb_progress_text_size" format="dimension" />
+        <attr name="swipepb_progress_text_color" format="color" />
+        <attr name="swipepb_progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>
