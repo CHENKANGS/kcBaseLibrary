@@ -6,6 +6,7 @@ Android项目采用MVP模式框架，OKHTTP，Retrofit，RXJAVA，DES加密，�
 新建一个TestActivity继承BaseKcActivity实现TestContract.View，RefreshLayout.OnRefreshListener（下拉刷新）
 public class TestActivity extends BaseKcActivity implements TestContract.View, RefreshLayout.OnRefreshListener {
 }
+
 然后新建TestContract，里面会提供View，Presenter接口，及自定义的方法
 public class TestContract {
 
@@ -31,13 +32,16 @@ public class TestContract {
         void login(String userName, String password);
     }
 }
+
 新建TestPresenter类，继承BasePresenter，实现TestContract.Presenter
 public class TestPresenter extends BasePresenter<TestContract.View> implements TestContract.Presenter<TestContract.View> {
 通知model去请求数据，通知view去刷新界面
 }
+
 新建TestModel
 public class TestModel {
 发送请求，返回数据
 }
 
 自己摸索，有什么不对还请多多指教。
+联系方式280306701@qq.com
